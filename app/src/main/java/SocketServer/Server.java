@@ -49,8 +49,10 @@ public class Server {
 //                .setCredentials(GoogleCredentials.getApplicationDefault())
 //                .build();
 //        FirebaseApp.initializeApp(options);
+//        String serviceAccountKey = "C:/Users/Ahn/Downloads/serviceAccountKey.json"; // 데스크탑
+        String serviceAccountKey = "C:/Users/seaha/Downloads/serviceAccountKey.json"; // 노트북
 
-        FileInputStream serviceAccount = new FileInputStream("C:/Users/Ahn/Downloads/serviceAccountKey.json");
+        FileInputStream serviceAccount = new FileInputStream(serviceAccountKey);
 
         FirebaseOptions options = FirebaseOptions.builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
