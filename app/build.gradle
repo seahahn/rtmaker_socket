@@ -1,13 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'application'
 
-plugins {
-    // Apply the application plugin to add support for building a CLI application in Java.
-    id 'application'
-}
+mainClassName = 'SocketServer.Server'
+//plugins {
+//    // Apply the application plugin to add support for building a CLI application in Java.
+//    id 'java'
+//    id 'application'
+//
+//    mainClassName = 'SocketServer.Server'
+//}
 
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
 }
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 compileJava.options.encoding = 'UTF-8'
 tasks.withType(JavaCompile) {
