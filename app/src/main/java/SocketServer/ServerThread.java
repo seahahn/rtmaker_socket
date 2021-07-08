@@ -122,6 +122,7 @@ public class ServerThread extends Thread{
 
         if(this.notiUsers.size() > 0) {
             MulticastMessage message = MulticastMessage.builder()
+                    .putData("type", "0") // 채팅은 알림 구분 0번으로 지정해둠
                     .putData("title", this.nick)
                     .putData("body", msg)
                     .addAllTokens(this.notiUsers)
