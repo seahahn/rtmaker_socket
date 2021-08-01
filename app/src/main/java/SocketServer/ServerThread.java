@@ -114,7 +114,7 @@ public class ServerThread extends Thread{
             token = rs.getString("token");
 
             // 사용자 본인 및 현재 채팅방 접속 중인 사용자를 제외한 나머지만 채팅 알림 보냄
-            if(!id.equals(this.userId) && !inUsers.contains(id)) {
+            if(!id.equals(this.userId) && !this.inUsers.contains(id)) {
                 this.notiUsers.add(token);
                 System.out.println("token : "+token);
             }
