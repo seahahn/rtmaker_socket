@@ -1,0 +1,1914 @@
+Exception in thread "DisconnectableInputStream source reader" org.gradle.api.UncheckedIOException: java.io.IOException: Bad file descriptor
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:41)
+	at org.gradle.util.internal.DisconnectableInputStream$1.run(DisconnectableInputStream.java:127)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at org.gradle.util.internal.DisconnectableInputStream$1.run(DisconnectableInputStream.java:98)
+	... 1 more
+> Task :app:compileJava UP-TO-DATE
+> Task :app:processResources NO-SOURCE
+> Task :app:classes UP-TO-DATE
+
+> Task :app:run
+서버 생성 완료
+소켓 연결 대기중
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 31.0
+사용자 정보 : 3 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : cbbEFeR5QjSsjx5ebUjuC_:APA91bE4jaPUm9GTmg5pSBHRvVNQWa9p-CwjLr8ATbnwKffkayB2WC7JIRvU0Cy_GUuKowEn1z6EU-bpe9JeZYGQ4wn95LpOz_gA1OnG6aLJ1qTGbDfWCsAjcJdjPa41Z5e-pzexKm0N
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 3 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 31.0
+사용자 정보 : 3 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : cbbEFeR5QjSsjx5ebUjuC_:APA91bE4jaPUm9GTmg5pSBHRvVNQWa9p-CwjLr8ATbnwKffkayB2WC7JIRvU0Cy_GUuKowEn1z6EU-bpe9JeZYGQ4wn95LpOz_gA1OnG6aLJ1qTGbDfWCsAjcJdjPa41Z5e-pzexKm0N
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 3 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+userId : 32.0
+사용자 정보 : 3 Salon
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 32
+serverThread.id : [30, 32]
+token : cbbEFeR5QjSsjx5ebUjuC_:APA91bE4jaPUm9GTmg5pSBHRvVNQWa9p-CwjLr8ATbnwKffkayB2WC7JIRvU0Cy_GUuKowEn1z6EU-bpe9JeZYGQ4wn95LpOz_gA1OnG6aLJ1qTGbDfWCsAjcJdjPa41Z5e-pzexKm0N
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 32
+serverThread.id : [30, 32]
+token : cbbEFeR5QjSsjx5ebUjuC_:APA91bE4jaPUm9GTmg5pSBHRvVNQWa9p-CwjLr8ATbnwKffkayB2WC7JIRvU0Cy_GUuKowEn1z6EU-bpe9JeZYGQ4wn95LpOz_gA1OnG6aLJ1qTGbDfWCsAjcJdjPa41Z5e-pzexKm0N
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 3 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 32
+serverThread.id : [30, 32]
+serverThread.id : 31
+serverThread.id : [30, 32, 31]
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 32
+serverThread.id : [30, 32]
+serverThread.id : 31
+serverThread.id : [30, 32, 31]
+EOFException occured
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+userId : 31.0
+사용자 정보 : 3 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+token : cPTJ6WbCS9mvfE8x6ukAPJ:APA91bExvwbFUT2Lxd0ACm2BFQTTk3XQ6mta1wCKam7ZFd_od8GPZQCEjOvy1GLP514zzhQwLC3zlwtnhvhpCWZxcz1E0bJSpydyhQZyavCNxz7BD9i_rjCmJ2zCCV9pTfbZ9pP2Ywpc
+1 messages were sent successfully
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+token : cPTJ6WbCS9mvfE8x6ukAPJ:APA91bExvwbFUT2Lxd0ACm2BFQTTk3XQ6mta1wCKam7ZFd_od8GPZQCEjOvy1GLP514zzhQwLC3zlwtnhvhpCWZxcz1E0bJSpydyhQZyavCNxz7BD9i_rjCmJ2zCCV9pTfbZ9pP2Ywpc
+1 messages were sent successfully
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 31.0
+사용자 정보 : 3 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 4 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+EOFException occured
+userId : 30.0
+사용자 정보 : 4 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 4 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+EOFException occured
+userId : 30.0
+사용자 정보 : 4 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 5 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 30
+serverThread.id : [30]
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 4 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 5 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 3 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : cbbEFeR5QjSsjx5ebUjuC_:APA91bE4jaPUm9GTmg5pSBHRvVNQWa9p-CwjLr8ATbnwKffkayB2WC7JIRvU0Cy_GUuKowEn1z6EU-bpe9JeZYGQ4wn95LpOz_gA1OnG6aLJ1qTGbDfWCsAjcJdjPa41Z5e-pzexKm0N
+token : cPTJ6WbCS9mvfE8x6ukAPJ:APA91bExvwbFUT2Lxd0ACm2BFQTTk3XQ6mta1wCKam7ZFd_od8GPZQCEjOvy1GLP514zzhQwLC3zlwtnhvhpCWZxcz1E0bJSpydyhQZyavCNxz7BD9i_rjCmJ2zCCV9pTfbZ9pP2Ywpc
+2 messages were sent successfully
+userId : 31.0
+사용자 정보 : 3 TESt팀123
+사용자 입장
+소켓 연결 대기중
+userId : 32.0
+사용자 정보 : 3 Salon
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+EOFException occured
+EOFException occured
+EOFException occured
+userId : 31.0
+사용자 정보 : 6 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 31
+serverThread.id : [31]
+userId : 32.0
+사용자 정보 : 6 Salon
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 32
+serverThread.id : [31, 32]
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 32
+serverThread.id : [31, 32]
+EOFException occured
+EOFException occured
+userId : 32.0
+사용자 정보 : 7 Salon
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 32
+serverThread.id : [32]
+serverThread.id : 32
+serverThread.id : [32]
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 32
+serverThread.id : [32]
+serverThread.id : 30
+serverThread.id : [32, 30]
+serverThread.id : 32
+serverThread.id : [32]
+serverThread.id : 30
+serverThread.id : [32, 30]
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 32
+serverThread.id : [32]
+serverThread.id : 30
+serverThread.id : [32, 30]
+serverThread.id : 31
+serverThread.id : [32, 30, 31]
+serverThread.id : 32
+serverThread.id : [32]
+serverThread.id : 30
+serverThread.id : [32, 30]
+serverThread.id : 31
+serverThread.id : [32, 30, 31]
+serverThread.id : 32
+serverThread.id : [32]
+serverThread.id : 30
+serverThread.id : [32, 30]
+serverThread.id : 31
+serverThread.id : [32, 30, 31]
+serverThread.id : 32
+serverThread.id : [32]
+serverThread.id : 30
+serverThread.id : [32, 30]
+serverThread.id : 31
+serverThread.id : [32, 30, 31]
+EOFException occured
+userId : 32.0
+사용자 정보 : 7 Salon
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+EOFException occured
+userId : 32.0
+사용자 정보 : 7 Salon
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+EOFException occured
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+userId : 31.0
+사용자 정보 : 6 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+userId : 32.0
+사용자 정보 : 6 Salon
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 32.0
+사용자 정보 : 7 Salon
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+EOFException occured
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+userId : 32.0
+사용자 정보 : 7 Salon
+사용자 입장
+소켓 연결 대기중
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+EOFException occured
+EOFException occured
+userId : 32.0
+사용자 정보 : 7 Salon
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 31.0
+사용자 정보 : 6 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+userId : 32.0
+사용자 정보 : 6 Salon
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 32.0
+사용자 정보 : 7 Salon
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+EOFException occured
+EOFException occured
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)
+사용자 입장
+소켓 연결 대기중
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveMessageFromClient(ServerThread.java:95)
+	at SocketServer.ServerThread.run(ServerThread.java:157)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)
+사용자 입장
+소켓 연결 대기중
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveMessageFromClient(ServerThread.java:95)
+	at SocketServer.ServerThread.run(ServerThread.java:157)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)
+사용자 입장
+소켓 연결 대기중
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveMessageFromClient(ServerThread.java:95)
+	at SocketServer.ServerThread.run(ServerThread.java:157)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveMessageFromClient(ServerThread.java:95)
+	at SocketServer.ServerThread.run(ServerThread.java:157)
+사용자 입장
+소켓 연결 대기중
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)
+사용자 입장
+소켓 연결 대기중
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveMessageFromClient(ServerThread.java:95)
+	at SocketServer.ServerThread.run(ServerThread.java:157)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)
+사용자 입장
+소켓 연결 대기중
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveMessageFromClient(ServerThread.java:95)
+	at SocketServer.ServerThread.run(ServerThread.java:157)
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eSjENJiDSUSZ0i6eQpaa31:APA91bEBwrvO-9ukpbhYyqgphS1GEECTfTDyrx8nnrGXmTzkAModx6HyAIYVKRzl08FBn3H7Pz3ImZMgQ9VUflKfazK9qENXdikdYbi_l1LNkUZN3tGvq3z-7NpVUu5TAt_RRxwN8Sme
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+2 messages were sent successfully
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+serverThread.id : 30
+serverThread.id : [30]
+token : ckuiZZtwSVyJHIzmi6wfQa:APA91bGMFoRHQsQDkhzTh0SO40cd3htsDhAf1MyOCj9RXeP1rSUrmVnbpY9XsgzhmPyqz3df8I8Dy_m-739K9fROCSnPDU31PMwzOrGbYRj5JrhyGHSrd1CgAbfz6EUrxMRoN_R2ZnHI
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+2 messages were sent successfully
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 31
+serverThread.id : [31, 31]
+serverThread.id : 30
+serverThread.id : [31, 31, 30]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 31
+serverThread.id : [31, 31]
+serverThread.id : 30
+serverThread.id : [31, 31, 30]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+serverThread.id : 31
+serverThread.id : [31, 30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+serverThread.id : 31
+serverThread.id : [31, 30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+serverThread.id : 31
+serverThread.id : [31, 30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+EOFException occured
+EOFException occured
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+EOFException occured
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : ckuiZZtwSVyJHIzmi6wfQa:APA91bGMFoRHQsQDkhzTh0SO40cd3htsDhAf1MyOCj9RXeP1rSUrmVnbpY9XsgzhmPyqz3df8I8Dy_m-739K9fROCSnPDU31PMwzOrGbYRj5JrhyGHSrd1CgAbfz6EUrxMRoN_R2ZnHI
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+2 messages were sent successfully
+userId : 31.0
+사용자 정보 : 7 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+token : dU1KQcR4TvWiXFZ9lwU9Sw:APA91bHn7nsaS0ZfD0VairCMqP0C4Arn4wd-rS32UL-mz3OYRVbLK6Zja0zGmy-R4a9GKG5dFQ1le1-ZQFjw7uiiBpH1yNSpO-NQgyNs8cQpXU6kfj3QPO6_yBv9uAIUgleMn22100S9
+1 messages were sent successfully
+userId : 32.0
+사용자 정보 : 7 Salon
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 32
+serverThread.id : [30, 31, 32]
+EOFException occured
+EOFException occured
+EOFException occured
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)
+사용자 입장
+소켓 연결 대기중
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveMessageFromClient(ServerThread.java:95)
+	at SocketServer.ServerThread.run(ServerThread.java:157)
+userId : 30.0
+사용자 정보 : 8 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 30
+serverThread.id : [30]
+EOFException occured
+userId : 30.0
+사용자 정보 : 8 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 8 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 8 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 8 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 7 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 8 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+EOFException occured
+userId : 30.0
+사용자 정보 : 8 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+EOFException occured
+userId : 30.0
+사용자 정보 : 9 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : 
+java.lang.IllegalArgumentException: none of the tokens can be null or empty
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:144)
+	at com.google.firebase.messaging.MulticastMessage.<init>(MulticastMessage.java:61)
+	at com.google.firebase.messaging.MulticastMessage.<init>(MulticastMessage.java:46)
+	at com.google.firebase.messaging.MulticastMessage$Builder.build(MulticastMessage.java:218)
+	at SocketServer.ServerThread.broadCast(ServerThread.java:128)
+	at SocketServer.ServerThread.run(ServerThread.java:158)
+userId : 30.0
+사용자 정보 : 9 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 9 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+EOFException occured
+userId : 30.0
+사용자 정보 : 10 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+EOFException occured
+userId : 30.0
+사용자 정보 : 10 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+EOFException occured
+userId : 30.0
+사용자 정보 : 10 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+2 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+2 messages were sent successfully
+EOFException occured
+userId : 30.0
+사용자 정보 : 11 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+EOFException occured
+userId : 30.0
+사용자 정보 : 10 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+EOFException occured
+userId : 30.0
+사용자 정보 : 11 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+EOFException occured
+userId : 30.0
+사용자 정보 : 12 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 12 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+EOFException occured
+userId : 31.0
+사용자 정보 : 12 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 31.0
+사용자 정보 : 12 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 12 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : 
+java.lang.IllegalArgumentException: none of the tokens can be null or empty
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:144)
+	at com.google.firebase.messaging.MulticastMessage.<init>(MulticastMessage.java:61)
+	at com.google.firebase.messaging.MulticastMessage.<init>(MulticastMessage.java:46)
+	at com.google.firebase.messaging.MulticastMessage$Builder.build(MulticastMessage.java:218)
+	at SocketServer.ServerThread.broadCast(ServerThread.java:128)
+	at SocketServer.ServerThread.run(ServerThread.java:158)
+userId : 30.0
+사용자 정보 : 12 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+EOFException occured
+userId : 30.0
+사용자 정보 : 13 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 13 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+EOFException occured
+userId : 30.0
+사용자 정보 : 13 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+EOFException occured
+serverThread.id : 31
+serverThread.id : [31]
+EOFException occured
+userId : 31.0
+사용자 정보 : 13 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+EOFException occured
+userId : 30.0
+사용자 정보 : 14 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+EOFException occured
+userId : 30.0
+사용자 정보 : 14 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : 
+java.lang.IllegalArgumentException: none of the tokens can be null or empty
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:144)
+	at com.google.firebase.messaging.MulticastMessage.<init>(MulticastMessage.java:61)
+	at com.google.firebase.messaging.MulticastMessage.<init>(MulticastMessage.java:46)
+	at com.google.firebase.messaging.MulticastMessage$Builder.build(MulticastMessage.java:218)
+	at SocketServer.ServerThread.broadCast(ServerThread.java:128)
+	at SocketServer.ServerThread.run(ServerThread.java:158)
+userId : 30.0
+사용자 정보 : 15 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 15 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 15 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 15 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 15 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 15 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 15 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 14 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+EOFException occured
+userId : 30.0
+사용자 정보 : 15 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : 
+java.lang.IllegalArgumentException: none of the tokens can be null or empty
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:144)
+	at com.google.firebase.messaging.MulticastMessage.<init>(MulticastMessage.java:61)
+	at com.google.firebase.messaging.MulticastMessage.<init>(MulticastMessage.java:46)
+	at com.google.firebase.messaging.MulticastMessage$Builder.build(MulticastMessage.java:218)
+	at SocketServer.ServerThread.broadCast(ServerThread.java:128)
+	at SocketServer.ServerThread.run(ServerThread.java:158)
+userId : 31.0
+사용자 정보 : 15 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+EOFException occured
+userId : 30.0
+사용자 정보 : 16 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 16 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+EOFException occured
+EOFException occured
+userId : 31.0
+사용자 정보 : 16 TESt팀123
+사용자 입장
+소켓 연결 대기중
+userId : 30.0
+사용자 정보 : 16 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 16 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+EOFException occured
+userId : 31.0
+사용자 정보 : 16 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+EOFException occured
+userId : 31.0
+사용자 정보 : 16 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+EOFException occured
+userId : 30.0
+사용자 정보 : 17 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 16 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+EOFException occured
+userId : 31.0
+사용자 정보 : 17 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+EOFException occured
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 17 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+EOFException occured
+EOFException occured
+userId : 31.0
+사용자 정보 : 17 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+token : cWmOU3eXTx6TJ5IK_8aTZD:APA91bEizL3v9f3squ9vIlpEc3vvgiTawD1dLidf3PCvNwRq6nH4gIsHPPQHs-hqow6oEx7x-Cmb64gdZWgRTRXOylQl-vCExwTQoJ_zi2M1EbnMCIpKtyY4MAEjticfu6sWKRznuHUk
+1 messages were sent successfully
+EOFException occured
+userId : 30.0
+사용자 정보 : 17 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 17 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 17 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+userId : 31.0
+사용자 정보 : 17 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+EOFException occured
+userId : 30.0
+사용자 정보 : 17 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 17 TESt팀123
+사용자 입장
+소켓 연결 대기중
+EOFException occured
+userId : 30.0
+사용자 정보 : 17 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+EOFException occured
+serverThread.id : 31
+serverThread.id : [31]
+token : cWmOU3eXTx6TJ5IK_8aTZD:APA91bEizL3v9f3squ9vIlpEc3vvgiTawD1dLidf3PCvNwRq6nH4gIsHPPQHs-hqow6oEx7x-Cmb64gdZWgRTRXOylQl-vCExwTQoJ_zi2M1EbnMCIpKtyY4MAEjticfu6sWKRznuHUk
+1 messages were sent successfully
+userId : 30.0
+사용자 정보 : 17 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+EOFException occured
+EOFException occured
+userId : 31.0
+사용자 정보 : 17 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+token : eS1Q1TxUTRSX_59pdqovqM:APA91bG2RBphijPp808YwIU6eHd5wJqkqc1aO3r94RXJZrvv-_PyN9Ndv4q5gjgyM0i4ngrWTSPJfKwz-Apd1Knib-SSq0hvcUcc-FKxno2shHSAv_7Rmg7bu6RyCzA2QAYhFKTZNtZR
+1 messages were sent successfully
+userId : 30.0
+사용자 정보 : 17 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+serverThread.id : 30
+serverThread.id : [31, 30]
+EOFException occured
+EOFException occured
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)사용자 입장
+
+소켓 연결 대기중
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveMessageFromClient(ServerThread.java:95)
+	at SocketServer.ServerThread.run(ServerThread.java:157)
+userId : 30.0
+사용자 정보 : 17 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+EOFException occured
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+사용자 입장	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)
+
+소켓 연결 대기중
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveMessageFromClient(ServerThread.java:95)
+	at SocketServer.ServerThread.run(ServerThread.java:157)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)
+사용자 입장
+소켓 연결 대기중
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveMessageFromClient(ServerThread.java:95)
+	at SocketServer.ServerThread.run(ServerThread.java:157)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveUserData(ServerThread.java:87)
+	at SocketServer.ServerThread.<init>(ServerThread.java:58)
+	at SocketServer.Server.<init>(Server.java:28)
+	at SocketServer.Server.main(Server.java:64)
+사용자 입장
+소켓 연결 대기중
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SocketServer.ServerThread.receiveMessageFromClient(ServerThread.java:95)
+	at SocketServer.ServerThread.run(ServerThread.java:157)
+userId : 30.0
+사용자 정보 : 17 팀노바_안경호
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+userId : 31.0
+사용자 정보 : 17 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 30
+serverThread.id : [30]
+serverThread.id : 31
+serverThread.id : [30, 31]
+EOFException occured
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+serverThread.id : 30
+serverThread.id : [30]
+token : eygOLdUJQX2hrG0bxNqJL2:APA91bG9NAl6Oa5LXag0sYfk6CzY45bv0cwcOy3x_KOyxd4twXNHBP_ctCJkhg6sKhVHo7QMTNQ0B2UlczzeECGgJcDEBesYu2ZKzAvWjbP77TMkh27Z2yrEkG3asy9Mqu4TT6dZ_7Bd
+1 messages were sent successfully
+EOFException occured
+userId : 31.0
+사용자 정보 : 17 TESt팀123
+사용자 입장
+소켓 연결 대기중
+serverThread.id : 31
+serverThread.id : [31]
+token : fGaxHEsERE-dcZ6OyA8Qbc:APA91bFviyHUXfli8mmuVzhjX2JghGhfPn6LaSbwYzl3Tjm6dcEcwGdZuyO7PPFHQSto3mvA8bYdm1nff5fVddxDi1ctbdXeSmEUAXa0IRLrtTHDiXQEexaO2mwANKtEJQUsD6EUyDK-
+1 messages were sent successfully
+EOFException occured
