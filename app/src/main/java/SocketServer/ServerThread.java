@@ -43,7 +43,7 @@ public class ServerThread extends Thread{
     Integer id;
     String token;
 
-    String dbpw = "0121"; // aws
+    String dbpw = System.getenv("DB_PW");
 
     public ServerThread(Server server){
         this.serverSocket = server.serverSocket;
