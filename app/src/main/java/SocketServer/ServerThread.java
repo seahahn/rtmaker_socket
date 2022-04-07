@@ -44,6 +44,8 @@ public class ServerThread extends Thread{
     String token;
 
     String dbpw = System.getenv("DB_PW");
+    String dbUser = System.getenv("DB_USERID");
+    String dbString = System.getenv("JAWSDB_MARIA_URL");
 
     public ServerThread(Server server){
         this.serverSocket = server.serverSocket;
@@ -137,8 +139,8 @@ public class ServerThread extends Thread{
 
     public void connDB() throws SQLException {
         conn = DriverManager.getConnection(
-                "jdbc:mariadb://localhost:3306/rtmaker",
-                "root",
+                "jdbc:"+dbString,
+                dbUser,
                 dbpw
         );
 //        return conn;
